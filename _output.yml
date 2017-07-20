@@ -1,0 +1,10 @@
+bookdown::gitbook:
+  css: css/style.css
+  config:
+    toc:
+      collapse: none
+      before: |
+        <li><a href="./">爸爸三定律 （大鹏 著）</a></li>
+      after: |
+        <li><a href="https://bookdown.org/yihui/bookdown/" target="blank">本书由R bookdown强力驱动</a></li>
+bookdown::word_document2: default 
